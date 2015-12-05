@@ -1,4 +1,4 @@
-# sainsburys
+# Sainsburys Web Page Consume Test
 
 ## Composer Dependencies
 This Project uses the following Composer Dependencies which are set inside the composer.json file
@@ -37,5 +37,5 @@ All of the project files are stored in these folders below:
 
 * sainsburys/src/fuel/app/classes/controller/
 * sainsburys/src/fuel/library/
-* sainsburys/test
+* sainsburys/test/
 
