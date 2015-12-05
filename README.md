@@ -1,6 +1,6 @@
 # Sainsburys Web Page Consume Test
 
-## Project Framework
+## Application Framework
 This application has been built using the FuelPHP HMVC Framework.
 
 ## Composer Dependencies
