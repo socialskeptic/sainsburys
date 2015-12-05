@@ -15,7 +15,8 @@ class Welcome extends Base\Rest
 	 */
 	public function action_index()
 	{
-		$this->response(array('index'));
+		$test = $this->getDi()['test'];
+		$this->response($test->getResponse());
 	}
 
 	/**

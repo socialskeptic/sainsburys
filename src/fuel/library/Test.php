@@ -9,10 +9,11 @@ namespace Library;
 class Test
 {
     /**
-     * __construct:
+     * This is to test DI for a response.
+     * @return string
      */
-    public function __construct()
+    public function getResponse()
     {
-        echo 'it works';
+        return array('it works!');
     }
 }
