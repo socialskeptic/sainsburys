@@ -25,7 +25,10 @@
         "fuel/parser": "dev-1.7/master",
         "fuelphp/upload": "2.0.2",
         "monolog/monolog": "1.5.*",
-        "michelf/php-markdown": "1.4.0"
+        "michelf/php-markdown": "1.4.0",
+        "curl/curl": "^1.2",
+        "asymptix/php-html-dom-parser": "1.5.*",
+        "pimple/pimple": "~3.0"
     },
     "suggest": {
         "dwoo/dwoo" : "Allow Dwoo templating with the Parser package",
@@ -49,5 +52,10 @@
             "php oil r install"
         ]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Library\\": "fuel/library"
+        }
+    }
 }

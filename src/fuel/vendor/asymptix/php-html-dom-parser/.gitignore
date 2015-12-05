@@ -1,0 +1,8 @@
+vendor/
+composer.lock
+/nbproject/
+/parse-url.php
+/vendor/composer/
+/vendor/autoload.php
+/lib/OutputStream.php
+/lib/FastObject.php

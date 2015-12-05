@@ -6,5 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname(dirname($vendorDir));
 
 return array(
+    'Library\\' => array($baseDir . '/fuel/library'),
     'Fuel\\Upload\\' => array($vendorDir . '/fuelphp/upload/src'),
+    'Asymptix\\HtmlDomParser\\' => array($vendorDir . '/asymptix/php-html-dom-parser/lib/HtmlDomParser'),
 );
