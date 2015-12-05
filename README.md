@@ -37,10 +37,23 @@ phpunit --colors
 
 src/fuel/vendor/bin/phpunit --colors
 
-## Project Custom Files
+## Project Folders
 All of the custom project files are stored in these folders below:
 
 * sainsburys/src/fuel/app/classes/controller/
 * sainsburys/src/fuel/library/
 * sainsburys/test/
 
+## Product File list
+* sainsburys/src/fuel/app/classes/controller/home.php
+* sainsburys/src/fuel/app/classes/controller/base/rest.php
+* sainsburys/src/fuel/app/classes/controller/test/curl.php
+* sainsburys/src/fuel/library/Di.php
+* sainsburys/src/fuel/library/Common/Curl.php
+* sainsburys/src/fuel/library/Consume/Product.php
+* sainsburys/src/fuel/library/Consume/ProductList.php
+* sainsburys/test/Base.php
+* sainsburys/test/Restful/Home.php
+* sainsburys/test/Functional/Library/Common/Curl.php
+* sainsburys/test/Functional/Library/Consume/Product.php
+* sainsburys/test/Functional/Library/Consume/ProductList.php

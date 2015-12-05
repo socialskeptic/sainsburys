@@ -30,12 +30,12 @@ class Curl extends Test\Base
         $results = json_decode($curl->getResponse(), true);
 
         //test get response
-        $this->assertTrue(isset($results['data']) && !empty($results['data']) ? true : false);
+        $this->assertTrue(isset($results['data']) && !empty($results['data']));
 
         //test url
-        $this->assertTrue(isset($results['data']['url']) && $results['data']['url'] === '/test/curl?field1=value1' ? true : false);
+        $this->assertTrue(isset($results['data']['url']) && $results['data']['url'] === '/test/curl?field1=value1');
 
         //test get params
-        $this->assertTrue(isset($results['data']['params']['get']) && $results['data']['params']['get'] === array('field1' => 'value1') ? true : false);
+        $this->assertTrue(isset($results['data']['params']['get']) && $results['data']['params']['get'] === array('field1' => 'value1'));
     }
 }

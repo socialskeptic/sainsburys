@@ -4,10 +4,10 @@ namespace Controller;
 use \Library;
 
 /**
- * Class Welcome
+ * Class Home
  * @package Controller
  */
-class Welcome extends Base\Rest
+class Home extends Base\Rest
 {
 	/**
 	 * The main index page for the application.
