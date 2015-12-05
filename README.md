@@ -16,6 +16,7 @@ This Project uses the following Composer Dependencies which are set inside the c
 2. Open Terminal and change directory to sainsburys/src
 3. run the following commands
 
+* rm -rf composer.lock
 * rm -rf fuel/vendor/*
 * php composer.phar install
 
