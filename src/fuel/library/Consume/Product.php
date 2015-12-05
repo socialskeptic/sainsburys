@@ -16,7 +16,7 @@ class Product
     public $curl;
 
     /**
-     * This should be set to the product list ajax url.
+     * This should be set to the product page url.
      * @var string
      */
     public $url;
