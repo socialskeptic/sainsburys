@@ -13,7 +13,7 @@ This Project uses the following Composer Dependencies which are set inside the c
 
 ## Project Installation
 1. Create a new virtual host and point the document root to sainsburys/src/public inside this project
-2. Open Terminal and change directory to /workspace/sainsburys/src
+2. Open Terminal and change directory to sainsburys/src
 3. run the following commands
 
 * rm -rf composer.lock
