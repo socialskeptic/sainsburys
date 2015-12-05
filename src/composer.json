@@ -28,7 +28,8 @@
         "michelf/php-markdown": "1.4.0",
         "curl/curl": "^1.2",
         "asymptix/php-html-dom-parser": "1.5.*",
-        "pimple/pimple": "~3.0"
+        "pimple/pimple": "~3.0",
+        "phpunit/phpunit": "^5.1"
     },
     "suggest": {
         "dwoo/dwoo" : "Allow Dwoo templating with the Parser package",
@@ -55,7 +56,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Library\\": "fuel/library"
+            "Library\\": "fuel/library",
+            "Test\\": "../test"
         }
     }
 }

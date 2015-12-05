@@ -32,7 +32,7 @@ class Curl extends \Curl\Curl
 
             //set user agent.
             $this->setOpt(CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
-            parent::get($url, $data = array());
+            parent::get($url, $data);
 
         } catch (\Exception $e) {
             throw new \Exception($e->getMessage());
