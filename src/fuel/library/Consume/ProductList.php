@@ -130,6 +130,9 @@ class ProductList
 
                 //get product href
                 $productInfo['href'] = trim($a->href);
+
+                //use first anchor tag result only
+                break;
             }
 
             //iterate over .pricePerUnit class

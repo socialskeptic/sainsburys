@@ -27,7 +27,7 @@ class Home extends Test\Base
         $results = json_decode($curl->getResponse(), true);
 
         //check for results
-        //$this->assertTrue(!empty($results));
+        $this->assertTrue(!empty($results));
 
         if(!empty($results)) {
             foreach($results as $result) {
@@ -42,7 +42,7 @@ class Home extends Test\Base
                 $this->assertTrue(isset($result['size']) && !empty($result['size']));
 
                 //check descriptions
-                $this->assertTrue(isset($result['description']) && !empty($result['description']));
+                $this->assertTrue(isset($result['description']));
             }
         }
     }
