@@ -44,7 +44,7 @@ All of the custom project files are stored in these folders below:
 * sainsburys/src/fuel/library/
 * sainsburys/test/
 
-## Product File list
+## Project File list
 * sainsburys/src/fuel/app/classes/controller/home.php
 * sainsburys/src/fuel/app/classes/controller/base/rest.php
 * sainsburys/src/fuel/app/classes/controller/test/curl.php
