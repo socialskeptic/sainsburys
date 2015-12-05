@@ -1,16 +1,16 @@
 <?php
 
-namespace Library;
+namespace Library\Common;
 
 /**
- * Class Curl - This is a wrapper class for the 3rd Party class \Curl\Curl.
- * This file contains custom settings for curl get method, and also has a defined method for getResponse().
- * @package App\Library
+ * Class Curl - This is a wrapper for the 3rd party library \Curl\Curl
+ * This will add additional curl http header settings for the get() method and add a getResponse() method
+ * @package Library\Common
  */
 class Curl extends \Curl\Curl
 {
     /**
-     * This will execute a curl get request with set options for cookies, follow location and user agent etc.
+     * This will execute a curl get request with custom options for cookies, follow location and user agent.
      * @param $url
      * @param array $data
      * @throws \Exception
