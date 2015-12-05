@@ -1,5 +1,8 @@
 # Sainsburys Web Page Consume Test
 
+## Project Framework
+This application has been built using the FuelPHP HMVC Framework.
+
 ## Composer Dependencies
 This Project uses the following Composer Dependencies which are set inside the composer.json file
 
@@ -22,7 +25,8 @@ You can now view the newly installed application at your selected
 virtual host address eg http://www.example.com via any browser
 
 ## Unit Testing
-1. For Unit tests you must update the $hostname variable at the top of sainsburys/test/Base.php to your virtual hostname. eg http://www.example.com/
+1. For Unit tests you must update the $hostname variable at the top of sainsburys/test/Base.php
+to your virtual hostname. eg http://www.example.com/
 2. Open terminal and change director to the base folder /sainsburys and run the required command below:
 
 ### If you have phpunit installed globally you can run:
