@@ -17,7 +17,7 @@ This Project uses the following Composer Dependencies which are set inside the c
 * rm -rf fuel/vendor
 * php composer.phar install
 
-View the website at your selected virtual host eg http://www.example.com
+View the newly installed application at your selected virtual host address eg http://www.example.com
 
 ## Unit Testing
 1. For Unit tests you must update the $hostname variable at the top of sainsburys/test/Base.php to your virtual hostname. eg http://www.example.com/
